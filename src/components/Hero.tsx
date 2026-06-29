@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
+import photoSrc from '/images/WhatsApp_Image_2026-05-15_at_4.42.40_PM.jpeg';
 
 const ROLES = ['Software Tester', 'Software Engineer', 'QA Architect', 'Bug Hunter'];
 
@@ -456,7 +457,7 @@ export default function Hero() {
               }}
             >
               <img
-                src="/images/WhatsApp_Image_2026-05-15_at_4.42.40_PM.jpeg"
+                src={photoSrc}
                 alt="Yadhu Krishnan T U"
                 className="w-full h-full object-cover object-center"
                 style={{ filter: 'saturate(0.9) brightness(0.95)' }}
